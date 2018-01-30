@@ -1,0 +1,140 @@
+{
+	"title": "Birds Need A Home God Dammit!",
+	"metadata": [
+		{
+			"name": "description",
+			"content": "Birds need a home of course"
+		},
+		{
+			"name": "author",
+			"content": "John Hummel"
+		},
+		{
+			"charset": "utf-8"
+		}
+	],
+	"houses": [
+		{
+			"id": 1,
+			"active": true,
+			"title": "House title 1",
+			"desc": "House desc 1",
+			"holesize": "35mm",
+			"housesize": "10x22",
+			"birds": "Gråspurv, bør hænges min. 2 meter over jorden.",
+			"galleries": [1,2],
+			"feature": 2
+		},
+		{
+			"id": 2,
+			"active": true,
+			"title": "House title 2",
+			"desc": "House desc 2",
+			"holesize": "25mm",
+			"housesize": "15x27",
+			"birds": "Mejser, bør hænges min. 1,5 meter over jorden.",
+			"galleries": [3,4],
+			"feature": 9
+		}
+	],
+	"galleries": [
+		{
+			"id": 1,
+			"title": "Gallery title 1",
+			"desc": "Gallery desc 1",
+			"pics": [1,2,3]
+		},
+		{
+			"id": 2,
+			"title": "Gallery title 2",
+			"desc": "Gallery desc 2",
+			"pics": [4,5,6,7]
+		},
+		{
+			"id": 3,
+			"title": "Gallery title 3",
+			"desc": "Gallery desc 3",
+			"pics": [8,9]
+		},
+		{
+			"id": 4,
+			"title": "Gallery title 4",
+			"desc": "Gallery desc 4",
+			"pics": [10,11,12]
+		}
+	],
+	"pics": [
+		{
+			"id": 1,
+			"title": "Pic title for pic 1",
+			"desc": "Pic desc for pic 1",
+			"src": "http://via.placeholder.com/150x200/fff/000.png?text=Pic%201"
+		},
+		{
+			"id": 2,
+			"title": "Pic title for pic 2",
+			"desc": "Pic desc for pic 2",
+			"src": "http://via.placeholder.com/150x200/fff/000.png?text=Pic%202"
+		},
+		{
+			"id": 3,
+			"title": "Pic title for pic 3",
+			"desc": "Pic desc for pic 3",
+			"src": "http://via.placeholder.com/150x200/fff/000.png?text=Pic%203"
+		},
+		{
+			"id": 4,
+			"title": "Pic title for pic 4",
+			"desc": "Pic desc for pic 4",
+			"src": "http://via.placeholder.com/150x200/fff/000.png?text=Pic%204"
+		},
+		{
+			"id": 5,
+			"title": "Pic title for pic 5",
+			"desc": "Pic desc for pic 5",
+			"src": "http://via.placeholder.com/150x200/fff/000.png?text=Pic%205"
+		},
+		{
+			"id": 6,
+			"title": "Pic title for pic 6",
+			"desc": "Pic desc for pic 6",
+			"src": "http://via.placeholder.com/150x200/fff/000.png?text=Pic%206"
+		},
+		{
+			"id": 7,
+			"title": "Pic title for pic 7",
+			"desc": "Pic desc for pic 7",
+			"src": "http://via.placeholder.com/150x200/fff/000.png?text=Pic%207"
+		},
+		{
+			"id": 8,
+			"title": "Pic title for pic 8",
+			"desc": "Pic desc for pic 8",
+			"src": "http://via.placeholder.com/150x200/fff/000.png?text=Pic%208"
+		},
+		{
+			"id": 9,
+			"title": "Pic title for pic 9",
+			"desc": "Pic desc for pic 9",
+			"src": "http://via.placeholder.com/150x200/fff/000.png?text=Pic%209"
+		},
+		{
+			"id": 10,
+			"title": "Pic title for pic 10",
+			"desc": "Pic desc for pic 10",
+			"src": "http://via.placeholder.com/150x200/fff/000.png?text=Pic%2010"
+		},
+		{
+			"id": 11,
+			"title": "Pic title for pic 11",
+			"desc": "Pic desc for pic 11",
+			"src": "http://via.placeholder.com/150x200/fff/000.png?text=Pic%2011"
+		},
+		{
+			"id": 12,
+			"title": "Pic title for pic 12",
+			"desc": "Pic desc for pic 12",
+			"src": "http://via.placeholder.com/150x200/fff/000.png?text=Pic%2012"
+		}
+	]
+}

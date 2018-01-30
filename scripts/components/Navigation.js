@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Search from './Search';
+
 export default class Navigation extends React.Component {
   render() {
     return (
@@ -9,23 +11,17 @@ export default class Navigation extends React.Component {
           'navigation'
         ].join(' ')
       }>
-      <div className="header">
-        <img class="logo" src={require('../../images/logo.png')} alt="LEGO System A/S"/>
-        <h1 class="branding">CoDesign</h1>
-      </div>
-      <nav role="navigation">
-        <ul>
-          <li><Link to="/intro">Get Started</Link></li>
-          <li><Link to="/structure">Visual Structure</Link></li>
-          <li><Link to="/elements">Elements</Link></li>
-          <li><Link to="/components">Components</Link></li>
-          <li><Link to="/widgets">Widgets</Link></li>
-          <li><Link to="/templates">Templates</Link></li>
-          <li><Link to="/seo">SEO &amp; Analytics</Link></li>
-          <li><Link to="/downloads">Downloads</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-        </ul>
-      </nav>
+        <Search />
+        <div class="header">
+          <a href="/"><h1 class="branding">Birds need a home</h1></a>
+        </div>
+        <nav role="navigation">
+          <ul class="primary">
+            <li class="active"><a href="#gds">GDS fuglehuse</a></li>
+            <li><a href="#hul">Danmarks småfugle</a></li>
+            <li><a href="#kontakt">Kontakt os</a></li>
+          </ul>
+        </nav>
       </div>
     );
   }
